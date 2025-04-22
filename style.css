@@ -186,3 +186,22 @@ footer a:hover {
     background-image: url('images/mockup.jpg');
 }
 
+
+
+
+/* -------- Media Queries = Responsive -------- */
+
+/* --- SM max-width in pixels approx 768px --- */
+@media(max-width: 48em) {
+
+    .hide-sm { display: none; }
+    
+    .center-sm { text-align: center; }
+
+    .flex-flip-sm { flex-direction: colum-reverse; }
+
+    .bg-plant {
+        background-image: url('/images/plant-light.jpg');
+        background-position: 45% 50%;
+    }
+}
