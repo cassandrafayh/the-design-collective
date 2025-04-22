@@ -156,8 +156,6 @@ footer a:hover {
     max-width: 3rem;
     opacity: 3rem;
     margin: 1rem 0;
-    fill: white;
-    color: white;
 }
 
 
@@ -170,3 +168,21 @@ footer a:hover {
     background-repeat: no-repeat;
     background-image: url('/images/plant.jpg');
 }
+
+.bg-plant {
+    background-image: url('/images/plant.jpg');
+}
+
+.bg-plant-2 {
+    background-image: url('/images/plant-2.jpg');
+    background-position: 75% 50%;
+}
+
+.bg-meeting {
+    background-image: url('/images/meeting.jpg');
+}
+
+.bg-mockup {
+    background-image: url('images/mockup.jpg');
+}
+
