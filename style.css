@@ -1,4 +1,5 @@
 /* -------- CSS Reset -------- */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +7,9 @@
 }
 
 
+
 /* -------- Image Reset = never let an image be bigger than it's container -------- */
+
 img { max-width: 100%; }
 
 
@@ -75,6 +78,11 @@ h2 {
 }
 
 
+h3 {
+    font-size: 1.8rem;
+}
+
+
 p {
     font-weight: 300;
     line-height: 1.3;
@@ -98,6 +106,7 @@ nav a {
     padding: 0.25rem;
 }
 
+
 a:hover { color: #a2745c; }
 
 
@@ -111,6 +120,15 @@ a:hover { color: #a2745c; }
 }
 
 
+.bg-dark .button:hover {
+    color: #d3b4a2;
+}
+
+
+.subtle {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
 
 
 
@@ -128,4 +146,27 @@ footer nav img {
 
 footer a:hover {
     color: #d3b4a2;
+}
+
+
+
+/* -------- Icon Grid Section -------- */
+
+.icon-section img {
+    max-width: 3rem;
+    opacity: 3rem;
+    margin: 1rem 0;
+    fill: white;
+    color: white;
+}
+
+
+/* -------- Background Images -------- */
+
+.bg-image {
+    background-color: rgb(240,240,240);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/plant.jpg');
 }
