@@ -222,5 +222,9 @@ footer a:hover {
     .dark-h2  {
         font-size: 2.2rem;
     }
+
+    .drop-sm {
+        display: block;
+    }
     
 }
