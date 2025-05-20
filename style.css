@@ -166,10 +166,12 @@ footer a:hover {
 
 /* -------- Icon Grid Section -------- */
 
-.icon-section img {
+.icon-section svg {
     max-width: 3rem;
     opacity: 3rem;
     margin: 1rem 0;
+    stroke: #272;
+    fill: #722;
 }
 
 
