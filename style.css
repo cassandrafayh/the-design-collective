@@ -160,6 +160,13 @@ footer a:hover {
     color: #d3b4a2;
 }
 
+footer a svg {
+    max-width: 1.4rem;
+    opacity: 3rem;
+    fill: white;
+    display: inline-block;
+}
+
 
 
 
@@ -170,8 +177,7 @@ footer a:hover {
     max-width: 3rem;
     opacity: 3rem;
     margin: 1rem 0;
-    stroke: #272;
-    fill: #722;
+    fill: #a2745c; 
 }
 
 
@@ -180,13 +186,13 @@ footer a:hover {
 .bg-image {
     background-color: rgb(240,240,240);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 64%;
     background-repeat: no-repeat;
-    background-image: url('/images/plant.jpg');
+    background-image: url('/images/plant-light.jpg');
 }
 
 .bg-plant {
-    background-image: url('/images/plant.jpg');
+    background-image: url('/images/plant-light.jpg');
 }
 
 .bg-plant-2 {
